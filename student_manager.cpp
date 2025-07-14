@@ -13,7 +13,7 @@ struct Student {
     int age;
 };
 
-// Utility to split a CSV line
+
 Student parseLine(const string& line) {
     stringstream ss(line);
     string token;
