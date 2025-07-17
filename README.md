@@ -1,39 +1,31 @@
-# Student Record Manager (C++ File Handling Project)
+# 🍪 Fortune Cookie App
 
-This is a console-based C++ application that allows users to manage student records using file handling. The project demonstrates key file I/O operations such as writing to a file, reading from a file, searching records, and deleting records — all with a user-friendly menu system.
+A fun and simple *C++ console application* that simulates a fortune cookie!  
+You can view random fortunes, add your own, and store them in a file using C++ file handling.
 
-## 🚀 Features
+---
 
-- 📥 Add new student data with **auto-generated unique ID**
-- 📋 Display all student records in a **formatted table**
-- 🔍 Search for a student by **name**
-- ❌ Delete a student record using their **ID**
-- 🧾 Data stored persistently in `data.txt`
+## ✨ Features
 
-## 🛠 Technologies Used
+- 📁 File I/O with fstream (read/write/append)
+- 🎲 Randomized fortune selection
+- 📝 Add and store your own fortunes
+- 💻 Menu-based interactive interface
+- 📚 Beginner-friendly C++ project
 
-- **C++** for logic and file handling
-- **File Streams** (`fstream`) for reading/writing files
-- **Standard I/O** for user interaction
+---
 
-## 📂 Files in this Repository
+## 📋 Menu Options
 
-- `student_manager.cpp` – Main source code for the project
-- `README.md` – Project documentation (you’re reading it)
-- `data.txt` – Automatically created during execution to store records
+1️⃣ Get a Random Fortune  
+2️⃣ Add a New Fortune  
+3️⃣ Show All Fortunes  
+4️⃣ Exit
 
-## 💻 How to Run
+---
 
-### 🧱 Prerequisites
-
-Ensure you have a C++ compiler installed:
-- GCC (Linux/Windows via MinGW)
-- Code::Blocks, Dev-C++, or any IDE with C++ support
-
-### 🔧 Compilation and Execution
-
-**Using terminal/command prompt:**
+## ⚙️ How to Compile & Run
 
 ```bash
-g++ -o student_manager student_manager.cpp
-./student_manager
+g++ fortune.cpp -o fortune_app
+./fortune_app
